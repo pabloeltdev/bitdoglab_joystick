@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-project(bitdoglab_joystick VERSION 1.0 DESCRIPTION "Biblioteca que permite o fácil uso do joystick da placa BitDogLab")
+project(bitdoglab_joystick VERSION 0.0.1 DESCRIPTION "Biblioteca que permite o fácil uso do joystick da placa BitDogLab")
 
 add_library(bitdoglab_joystick src/joystick.c)
 

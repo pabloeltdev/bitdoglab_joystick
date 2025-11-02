@@ -47,7 +47,7 @@ Adicione o seguinte conteúdo no `CMakeLists.txt`.
 add_subdirectory(bitdoglab_joystick)
 
 # Incorpora a biblioteca ao projeto
-target_link_libraries([projeto] # ATENÇÂO: substitua pelo nome do projeto
+target_link_libraries([projeto] # ATENÇÃO: substitua pelo nome do projeto
         bitdoglab_joystick
         )
 ```
@@ -61,7 +61,7 @@ Crie seu primeiro código com o joystick:
 
 #define GREEN_LED_PIN 11    // LED Verde no GPIO 11   
 #define BLUE_LED_PIN 12     // LED Azul no GPIO 12
-#define RED_LED_PIN 13      // LED Vermelho no GPIO 10
+#define RED_LED_PIN 13      // LED Vermelho no GPIO 13
 
 
 void leds_init() {
@@ -106,7 +106,7 @@ int main()
 
 ## Créditos
 
-Esse projeto é possível graças, principalmente, aos seguintes softwares ou produtos:
+Este projeto é possível principalmente graças aos seguintes softwares ou produtos:
 
 - [BitDogLab](https://github.com/BitDogLab/BitDogLab/)
 - [Pico SDK](https://github.com/raspberrypi/pico-sdk)
